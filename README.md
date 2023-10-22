@@ -22,11 +22,13 @@ conda activate ames
 
 # Hugging Face Deploy
 
-### the "Ames" directory contains a hugging face deploy of an api that contains our Best model
+ the "Ames" directory contains a hugging face deploy of an api that contains our Best model
  
-### To use it send a POST request to https://andrecorrea-ames.hf.space/predict with a json containing the processed model features in the request's body.
+ To use it send a POST request to https://andrecorrea-ames.hf.space/predict with a json containing the processed model features in the request's body.
 
-# Alternatively we can also self host the api by entering the "api" directory:
+
+# Self Host
+## Alternatively we can also self host the api by entering the "api" directory:
 
 Firstly install all packedges needed for the API
 
