@@ -19,3 +19,34 @@ Just activate the environment.
 ``` bash
 conda activate ames
 ```
+
+
+# the "Ames" directory contains a hugging face deploy of an api that contains our Best model
+ 
+## To use it send a POST request to https://andrecorrea-ames.hf.space/predict with a json containing the processed model features in the request's body.
+
+# Alternatively we can also self host the api by entering the "api" directory:
+
+Firstly install all packedges needed for the API
+
+``` bash
+pip install -r requirements.txt
+```
+
+Then run the API
+
+``` bash
+uvicorn main:app
+```
+
+The API will be running on
+http://127.0.0.1:8000/predict
+
+For a easy way to test the API, you can go to
+http://127.0.0.1:8000/docs
+
+The documentation is available on
+http://127.0.0.1:8000/redoc
+
+
+
