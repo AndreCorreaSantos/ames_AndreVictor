@@ -30,7 +30,13 @@ conda activate ames
 # Self Host
 ## Alternatively we can also self host the api by entering the "api" directory:
 
-Firstly install all packedges needed for the API
+enter the api directory
+
+``` bash
+cd api
+```
+
+install all packedges needed for the API
 
 ``` bash
 pip install -r requirements.txt
