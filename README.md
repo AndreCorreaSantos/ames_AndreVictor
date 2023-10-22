@@ -28,7 +28,7 @@ conda activate ames
 
  It's possible to test and try out the API through the link https://andrecorrea-ames.hf.space/docs
 
- The documentation is available at https://andrecorrea-ames.hf.space/redocs
+ The documentation is available at https://andrecorrea-ames.hf.space/redoc
 
 # Self Host
 ## Alternatively we can also self host the api by entering the "api" directory:
